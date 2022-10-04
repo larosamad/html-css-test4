@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    text-align: center;
+    background-image: url(../img/pattern.png);
+    background-repeat: repeat;
+    background-size: 20%;
+    border-bottom: 1px solid green;
+    padding: 30px 0;
+}
+
+header img{
+    width: 10%;
+}
+
+.divider{
+    width: 12%;
+    height: 1px;
+    background: darkgrey;
+    margin: auto;
+}
+
+footer{
+    background-image: url(../img/footer.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 200px;
+    text-align: center;
+    padding: 30px 0;
+}
+
+.heart{
+    color: green;
+}
+
+main{
+width: 80%;
+margin: auto;
+}
+
+.item{
+    padding: 30px 0;
+}
