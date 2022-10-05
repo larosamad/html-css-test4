@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -17,11 +19,66 @@ header img{
     width: 10%;
 }
 
+h1{
+    font-family: 'Inconsolata', monospace;
+}
+
 .divider{
     width: 12%;
-    height: 1px;
+    height: 2px;
     background: darkgrey;
     margin: auto;
+}
+
+main{
+    width: 80%;
+    margin: auto;
+    }
+    
+    .item{
+        padding: 30px 0;
+    }
+
+h2,
+h3{
+    font-family: 'Inconsolata', monospace;
+}
+
+.highlight{
+    background-color: yellow;
+}
+
+table{
+    border-spacing: 0px;
+    padding: 30px 0px;
+}
+
+td{
+    padding: 10px 30px;
+}
+
+th{
+    padding: 20px 30px;
+} 
+
+thead,
+tfoot{
+    background-color: orange;
+}
+
+
+.left-column{
+    border: 2px solid orange;
+}
+
+.center-column{
+    border: 2px solid orange;
+    width: 50%;
+    text-align: center;
+}
+
+.right-column{
+    border: 2px solid orange;
 }
 
 footer{
@@ -38,11 +95,3 @@ footer{
     color: green;
 }
 
-main{
-width: 80%;
-margin: auto;
-}
-
-.item{
-    padding: 30px 0;
-}
